@@ -6,9 +6,9 @@ html, body, *{
 }
 .parent {
     font-size: 30px;
-    /* display: flex;
+    display: flex;
     width: 70vw;
-    flex-direction: column; */
+    flex-direction: column; 
 }
 .child {
     border: 1px solid red;
