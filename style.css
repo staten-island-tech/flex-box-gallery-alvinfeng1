@@ -3,17 +3,35 @@ html, body, *{
     margin: 0px;
     box-sizing: border-box;
     font-size: 62.5%; /*100% is 16px, this is 10 px  */
+    background-color: rgb(71, 217, 217);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .parent {
     font-size: 30px;
     display: flex;
-    width: 70vw;
-    flex-direction: column; 
+    justify-content: space-around;
 }
 .child {
     border: 1px solid red;
+    width: 28%;
 }
-/* h2 {
+#header {
+  font-size: 30px;
+  color: aqua;
+  margin-top: 100px;
+  text-align: center;
+  background-color: blue;
+  margin: 50px auto ;
+  padding: 25px 5px;
+  border-radius: 30px;
+  border: 20px solid rgb(10, 22, 190);
+  width: fit-content;
+}
+
+    
+}
+/*}
+ h2 {
     margin: 1rem;
 }
 .px-size {
