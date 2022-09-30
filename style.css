@@ -3,7 +3,7 @@ html, body, *{
     margin: 0px;
     box-sizing: border-box;
     font-size: 62.5%; /*100% is 16px, this is 10 px  */
-    background-color: rgb(71, 217, 217);
+    background-color: rgb(26, 76, 185);
     font-family: 'Roboto Condensed', sans-serif;
 }
 .parent {
@@ -11,25 +11,29 @@ html, body, *{
     justify-content: space-around;
     margin: 20px auto;
     text-align: center;
-    color: darkviolet;
-    font-size: 50px;   
+    color: aqua;
+    font-size: 70px;   
     width: 60%;
     font-family: "Roboto Condensed", sans-serif;
+    align-items: stretch;
 }
+
 .child {
-    border: 10px solid burlywood;
+    border: 10px solid white;
     width: 28%;
+    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+    border-radius: 10px;
 }
 #header {
   font-size: 30px;
   color: aqua;
   margin-top: 100px;
   text-align: center;
-  background-color: blue;
+  background-color: mediumblue;
   margin: 50px auto ;
   padding: 25px 5px;
   border-radius: 30px;
-  border: 20px solid rgb(10, 22, 190);
+  border: 20px solid rgb(19, 9, 156);
   width: fit-content;
 }
 
