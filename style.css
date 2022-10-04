@@ -3,19 +3,20 @@ html, body, *{
     margin: 0px;
     box-sizing: border-box;
     font-size: 62.5%; /*100% is 16px, this is 10 px  */
-    background-color: rgb(26, 76, 185);
+    /* background-color: rgb(26, 76, 185); */
     font-family: 'Roboto Condensed', sans-serif;
+    justify-content: space-around;
+    align-items: stretch;
+    background-image: blue.jpeg;
 }
 .parent {
     display: flex;
-    justify-content: space-around;
     margin: 20px auto;
     text-align: center;
     color: aqua;
     font-size: 70px;   
     width: 60%;
     font-family: "Roboto Condensed", sans-serif;
-    align-items: stretch;
 }
 
 .child {
@@ -23,6 +24,12 @@ html, body, *{
     width: 28%;
     box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
     border-radius: 10px;
+    transition: /* background-color 2s, */ transform 1s;
+}
+
+.child:hover {
+  /* background-color: #ffcccc; */
+  transform: scale(1.25)
 }
 #header {
   font-size: 30px;
