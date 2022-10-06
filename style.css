@@ -5,7 +5,8 @@ html, body, *{
     font-size: 62.5%; /*100% is 16px, this is 10 px  */
     font-family: 'Roboto Condensed', sans-serif;
     justify-content: space-around;
-    background-image: url(b.jpg) ;
+    /* background-image: url(b.jpg) ; */
+    background-color: darkblue;
 }
 
 .parent {
