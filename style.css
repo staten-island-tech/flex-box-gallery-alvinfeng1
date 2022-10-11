@@ -49,6 +49,7 @@ html, body, *{
     color: dodgerblue;
     width: 80%;
     margin-bottom: 40px;
+    align-content: center;
   }
   #header {
     color: firebrick;
