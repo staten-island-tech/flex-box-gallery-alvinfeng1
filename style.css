@@ -44,6 +44,11 @@ html, body, *{
   width: fit-content;
 }
 
+#header:hover {
+  transform: scale(1.15); 
+  transition-delay: 0.25s;
+}
+
 @media screen and (max-width: 600px) {
   .child {
     color: dodgerblue;
