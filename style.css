@@ -47,7 +47,7 @@ html, body, *{
 @media screen and (max-width: 600px) {
   .child {
     color: dodgerblue;
-    width: 60%;
+    width: 90%;
     text-align: center;
   }
   #header {
