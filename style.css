@@ -24,8 +24,7 @@ html, body, *{
     box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
     border-radius: 10px;
     transition: transform 1s;
-    transition-delay: 0.5s;
-   transition-duration: 2s;
+   transition-duration: 1s;
 }
 
 .child:hover {
@@ -50,6 +49,7 @@ html, body, *{
     color: dodgerblue
   }
   #header {
+    flex-direction: column;
     color: firebrick;
   }
   .parent {
