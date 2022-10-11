@@ -28,7 +28,7 @@ html, body, *{
 }
 
 .child:hover {
-  transform: rotate(360deg) scale(1.18);
+  transform: rotate(360deg) scale(1.15);
   color: coral
 }
 #header {
@@ -47,9 +47,9 @@ html, body, *{
 @media screen and (max-width: 600px) {
   .child {
     color: dodgerblue;
-    width: 80%;
+    width: 75%;
     margin-bottom: 40px;
-    align-content: center;
+    
   }
   #header {
     color: firebrick;
