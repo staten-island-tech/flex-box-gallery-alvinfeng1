@@ -20,7 +20,7 @@ html, body, *{
 
 .child {
     border: 10px solid white;
-    width: 25%;
+    width: 30%;
     box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
     border-radius: 10px;
     transition: transform 1s;
@@ -28,7 +28,7 @@ html, body, *{
 }
 
 .child:hover {
-  transform: rotate(360deg) scale(1.2);
+  transform: rotate(360deg) scale(1.18);
   color: coral
 }
 #header {
@@ -46,10 +46,10 @@ html, body, *{
 
 @media screen and (max-width: 600px) {
   .child {
-    color: dodgerblue
+    color: dodgerblue;
+    align-items: center;
   }
   #header {
-    
     color: firebrick;
   }
   .parent {
