@@ -47,7 +47,7 @@ html, body, *{
 @media screen and (max-width: 600px) {
   .child {
     color: dodgerblue;
-    width: auto;
+    width: 50%;
   }
   #header {
     color: firebrick;
