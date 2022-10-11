@@ -63,7 +63,6 @@ html, body, *{
     flex-direction: column;
     width: 100%;
     color: silver;
-    align-self: center;
-    align-content: center;
+    align-items: center;
   }
 }
