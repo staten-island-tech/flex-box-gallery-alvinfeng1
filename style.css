@@ -54,7 +54,7 @@ html, body, *{
   }
   .parent {
     flex-direction: column;
-    width: auto;
+    width: 100%;
     color: silver;
   }
 }
