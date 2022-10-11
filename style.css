@@ -48,7 +48,7 @@ html, body, *{
   .child {
     color: dodgerblue;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   #header {
     color: firebrick;
