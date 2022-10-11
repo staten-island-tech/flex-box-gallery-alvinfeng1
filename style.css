@@ -49,10 +49,11 @@ html, body, *{
     color: dodgerblue
   }
   #header {
-    flex-direction: column;
+    
     color: firebrick;
   }
   .parent {
+    flex-direction: column;
     color: silver;
   }
 }
