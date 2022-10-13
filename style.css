@@ -1,43 +1,47 @@
-html, body, *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-size: 62.5%; /*100% is 16px, this is 10 px  */
-    font-family: 'Roboto Condensed', sans-serif;
-    justify-content: space-around;
-    background-color: darkblue;
+html,
+body,
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*100% is 16px, this is 10 px  */
+  font-family: 'Roboto Condensed', sans-serif;
+  justify-content: space-around;
+  background-color: darkblue;
 }
 
 .parent {
-    display: flex;
-    margin: 20px auto;
-    text-align: center;
-    color:rgb(182, 36, 155);
-    font-size: 70px;   
-    width: 60%;
-    font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  margin: 20px auto;
+  text-align: center;
+  color: rgb(182, 36, 155);
+  font-size: 70px;
+  width: 60%;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .child {
-    border: 10px solid white;
-    width: 25%;
-    box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
-    border-radius: 10px;
-    transition: transform 1s;
-   transition-duration: 1s;
+  border: 10px solid white;
+  width: 25%;
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+  border-radius: 10px;
+  transition: transform 1s;
+  transition-duration: 1s;
 }
 
 .child:hover {
-  transform: rotate(360deg) scale(1.15) ;
+  transform: rotate(360deg) scale(1.15) rotate3d(0, 1, 0, 360deg);
   color: coral
 }
+
 #header {
   font-size: 30px;
   color: aqua;
   margin-top: 30px auto;
   text-align: center;
   background-color: mediumblue;
-  margin: 50px auto ;
+  margin: 50px auto;
   padding: 25px 5px;
   border-radius: 30px;
   border: 20px solid rgb(19, 9, 156);
@@ -45,7 +49,7 @@ html, body, *{
 }
 
 #header:hover {
-  transform: scale(1.15) ; 
+  transform: scale(1.15);
   transition-delay: 0.25s;
   color: black;
 }
@@ -55,11 +59,13 @@ html, body, *{
     color: dodgerblue;
     width: 75%;
     margin-bottom: 40px;
-    
+
   }
+
   #header {
     color: firebrick;
   }
+
   .parent {
     flex-direction: column;
     width: 100%;
