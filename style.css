@@ -32,7 +32,8 @@ body,
 
 .child:hover {
   transform: rotate(360deg) scale(1.15) rotate3d(0, 1, 0, 360deg);
-  color: coral
+  color: coral;
+  box-shadow: 0rem 0rem 2rem white;
 }
 
 #header {
