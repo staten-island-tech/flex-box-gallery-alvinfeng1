@@ -28,7 +28,7 @@ html, body, *{
 }
 
 .child:hover {
-  transform: rotate(360deg) scale(1.15);
+  transform: rotate(360deg) scale(1.15) ;
   color: coral
 }
 #header {
@@ -45,8 +45,9 @@ html, body, *{
 }
 
 #header:hover {
-  transform: scale(1.15); 
+  transform: scale(1.15) ; 
   transition-delay: 0.25s;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
