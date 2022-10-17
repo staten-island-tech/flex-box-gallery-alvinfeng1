@@ -51,8 +51,7 @@ body,
 
 #header:hover {
   transform: scale(1.15);
-  transition-delay: 0.25s;
-  color: black;
+  color: rgb(15, 194, 78);
 }
 
 @media screen and (max-width: 600px) {
