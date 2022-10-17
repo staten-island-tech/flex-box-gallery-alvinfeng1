@@ -31,7 +31,7 @@ body,
 }
 
 .child:hover {
-  transform: rotate(360deg) scale(1.15) rotate3d(0, 1, 0, 360deg);
+  transform: rotate(360deg) scale(1.15) rotate3d(1, 0, 0, 360deg)  ;
   color: coral;
   box-shadow: 0rem 0rem 2rem white;
 }
@@ -51,7 +51,8 @@ body,
 
 #header:hover {
   transform: scale(1.15);
-  color: rgb(15, 194, 78);
+  color: rgba(235, 17, 17, 0.816);
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 600px) {
